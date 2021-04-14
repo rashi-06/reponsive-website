@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    /* font-size: 20px; */
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+
+
+}
+
+.navlist{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.navbar li{
+    list-style: none;
+    padding: 26px 26px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px;
+
+}
+
+.navbar li a:hover{
+    border-bottom: 3px solid white;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 50%;
+    border: 5px solid white;
+    border-radius: 200px;
+}
+
+.logo p{
+    color: white;
+    margin: 12px;
+}
+
+.search-bar{
+    width: 30%;
+    text-align: right;
+    margin: 20px  10px;
+}
+
+.search{
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 3px 30px;
+    outline: none;
+
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(img/bg1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+
+.btn{
+    padding: 5px 4px;
+    margin: 12px  4px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background : none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.btn{
+    padding: 6px 10px;
+    vertical-align: middle;
+    color: white;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+
+.firstSec{
+
+    padding: 100px 33px;
+    height: 50vh;
+    color: white;
+}
+
+.firstHalf{
+    padding: 20px 23px;
+}
+
+.box-main{
+    height: 30%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 33px;
+}
+
+.main{
+    padding: 100px 33px;
+}
+
+.firstHalf{
+    font-size: larger;
+
+}
+
+
+.secondHalf {
+    width: 70%;
+}
+
+.secondHalf img{
+    width: 100%;
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+}
+
+
+.secondSec{
+    padding: 55px 33px;
+    /* height: 78px; */
+    margin: 5px 1px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.set{
+    width: 85%;
+     padding: 0px 0px;
+}
+
+.set img{
+    width: 75%;
+    border: 3px solid black;
+    border-radius: 25%;
+    display: block;
+    margin: auto;
+   
+}
+
+.first{
+    width: 75%;
+}
+
+footer{
+    /* background-color: black;
+    color: white; */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 15px;
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 3px;
+}
+
+
